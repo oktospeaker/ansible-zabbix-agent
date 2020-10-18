@@ -1,2 +1,2 @@
 # ansible-zabbix-agent
-Deploy docker container with web server for zabbix (nginx) based on official zabbix-web-nginx-mysql container (https://hub.docker.com/r/zabbix/zabbix-web-nginx-mysql).
+Deploy docker container with zabbix agent based on official zabbix-agent container (https://hub.docker.com/r/zabbix/zabbix-agent).
