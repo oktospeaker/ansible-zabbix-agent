@@ -1,0 +1,11 @@
+---
+- name: "Installation {{ service_name }}"
+  become: yes
+  become_user: root
+  include: install.yml
+
+- name: "Unistallation {{ service_name }}"
+  become: yes
+  become_user: root
+  include: uninstall.yml
+  when: uninstall_service | bool

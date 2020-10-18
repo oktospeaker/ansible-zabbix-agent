@@ -1,0 +1,9 @@
+---
+service_name: zabbix-agent
+uninstall_service: false
+ZBX_HOSTNAME: Zabbix server
+ZBX_SERVER_HOST: zabbix-server
+DB_SERVER_HOST: mysql-docker
+DB_CONTAINER: mysql
+ZBX_SRV: zabbix-srv-docker
+docker_image: zabbix/zabbix-agent
